@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>简单的注册页面</title>
+<link type="text/css" rel="stylesheet" href="css/zhuce.css"/>
+<!--<script type="text/javascript" src="js/zhuce.js"></script>-->
+<script src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/zhuce-jq.js"></script>
+</head>
+<body>
+
+<div id="calider">
+    <div id="header">
+    <ul>
+    	<li><a href="#">友情链接1</a></li>
+        <li><a href="javascript:void(0)">友情链接2</a></li>
+    </ul>
+    </div>
+    <div id="bodies">
+    <div id="up">
+    	<div id="hr"></div>
+        <div><img src="img/image003(07-26-16-34-57).png" width="80"/><p>表情包注册</p></div>
+    </div>
+    <div id="page">
+    <div>
+    	<div class="title"><p>注册</p>&nbsp;&nbsp;你也可以去&nbsp;&nbsp;<a href="login.html">登录</a></div>
+        <dl id="tab">
+        	<dt id="tab_phone">交出电话号码来</dt>
+            <dt id="tab_mail">交出邮箱来</dt>
+        </dl>
+        <div id="div_tab">
+          <form name="form1" method="get" class="form_tab">
+              <table id="phone">
+                    <tr>
+                        <td class="you">电话<span class="red">*</span>:</td>
+                        <td class="cen"><input type="text" /></td>
+                        <td><span class="ts">&nbsp;&nbsp;填写你的电话号码</span></td>
+                    </tr>
+                    <tr>
+                        <td class="you">密码<span class="red">*</span>:</td>
+                        <td class="cen"><input type="password"/></td>
+                        <td><span class="ts">&nbsp;&nbsp;注意区分大小写</span></td>
+                    </tr>
+                    <tr>
+                        <td class="you">确认密码<span class="red">*</span>:</td>
+                        <td class="cen"><input type="password"/></td>
+                        <td><span class="ts">&nbsp;&nbsp;注意区分大小写</span></td>
+                    </tr>
+                    <tr>
+                        <td class="you">用户名<span class="red">*</span>:</td>
+                        <td class="cen"><input type="text" /></td>
+                        <td><span class="ts">&nbsp;&nbsp;</span></td>
+                    </tr>
+                    <tr>
+                        <td class="you">地区<span class="red">*</span>:</td>
+                        <td><select id="address" class="a"></select></td>
+                        <td><span class="ts">&nbsp;&nbsp;</span></td>
+                    </tr>
+                    <tr>
+                        <td class="you">验证码<span class="red">*</span>:</td>
+                        <td class="hj"><input type="text" style="background-color:#FC9" />&nbsp;&nbsp;<img src="img/fetch_image.png"  id="yz"/></td>
+                        <td><span class="ts">&nbsp;&nbsp;看不清楚？<a href="#" id="changeimg">换一换</a></span></td>
+                    </tr>
+                    <tr>
+                    	<td class="you"><input type="checkbox"/></td>
+                        <td rowspan="1"><span class="ts">&nbsp;&nbsp;我同意</span></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2" class="you"><input type="submit" value="注册" class="sub"/></td>
+                    </tr> 
+                </table>
+            </form>     
+            <form name="form2" method="get">
+                <table id="mail">
+                    <tr>
+                        <td class="you">邮箱<span class="red">*</span>:</td>
+                        <td class="cen"><input type="text" /></td>
+                        <td><span class="ts">&nbsp;&nbsp;填写你的邮箱</span></td>
+                    </tr>
+                    <tr>
+                        <td class="you">密码<span class="red">*</span>:</td>
+                        <td class="cen"><input type="password"/></td>
+                        <td><span class="ts">&nbsp;&nbsp;注意区分大小写</span></td>
+                    </tr>
+                    <tr>
+                        <td class="you">确认密码<span class="red">*</span>:</td>
+                        <td class="cen"><input type="password"/></td>
+                        <td><span class="ts">&nbsp;&nbsp;注意区分大小写</span></td>
+                    </tr>
+                    <tr>
+                        <td class="you">用户名<span class="red">*</span>:</td>
+                        <td class="cen"><input type="text" /></td>
+                        <td><span class="ts">&nbsp;&nbsp;</span></td>
+                    </tr>
+                    <tr>
+                        <td class="you">地区<span class="red">*</span>:</td>
+                        <td><select id="address2" class="a"></select></td>
+                        <td><span class="ts">&nbsp;&nbsp;</span></td>
+                    </tr>
+                    <tr>
+                        <td class="you">短信验证码<span class="red">*</span>:</td>
+                        <td class="hj"><input type="text" style="background-color:#FC9" /></td>
+                        <td><span class="ts">&nbsp;&nbsp;没有收到？<a href="javascript:void(0)">再次发送</a></span></td>
+                    </tr>
+                    <tr>
+                    	<td class="you"><input type="checkbox"/></td>
+                        <td rowspan="1"><span class="ts">&nbsp;&nbsp;我同意</span></td>
+                    </tr>
+                     <tr>
+                        <td rowspan="2" class="you"><input type="submit" value="注册" class="sub"/></td>
+                    </tr>                    
+                </table>
+            </form>   
+   		</div>
+        </div>
+        <div class="fu-left"><img src="img/6.gif" /></div>
+        <div class="fu-right"><img src="img/2.gif" /></div>
+        <div class="fu-down"><img src="img/zou.gif" /></div>
+    </div>
+    <div id="footer"></div>
+</div>
+</body>
+</html>
